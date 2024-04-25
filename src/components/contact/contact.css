@@ -1,0 +1,170 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: #59b256;
+  position: absolute;
+}
+
+.c-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.c-left {
+  flex: 1;
+}
+
+c-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-title {
+  font-size: 60px;
+  width: 80%;
+}
+
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+}
+
+.c-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.c-desc {
+  font-weight: 200;
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+} */
+.input-group {
+  position: relative;
+}
+
+.input-group input {
+  width: 50%;
+  height: 50px;
+  margin: 10px 0px;
+  font: inherit;
+  color: rgb(13, 2, 2);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: 2px solid #f57878;
+  transition: outline-color 500ms;
+}
+
+.input-group input:focus,
+.input-group input:valid {
+  outline-color: #3c50eb;
+}
+
+
+.input-group label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 25px;
+  font-weight: bold;
+  transform: translate(10px, 10px);
+  color: rgb(76, 56, 232);
+  transition: transform 500ms, font-size 500ms;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+  transform: translate(10px, -14px) scale(0.8);
+  background-color: #f39b9b;
+  border-radius: 7px;
+  outline: 2px solid #f11e28;
+}
+
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.submit {
+  position:relative;
+ padding: 1em 1.5em;
+ color:#fff;
+ font-size: 1.15rem;
+ border-radius: 100vmax;
+ background-color: green;
+ border: 2px solid #fff;
+ text-transform: uppercase;
+ overflow: hidden;
+ cursor: pointer;
+
+}
+
+
+
+
+ #btn{
+  box-shadow: 0px 0px 19px 10px #01dd8142;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: grid;
+  width: 20rem;
+  height: 4.5rem;
+  background: none;
+  border: 0.1rem solid #01dd81;
+  border-radius: 4rem;
+  padding: 0.3rem;
+  transition: all 1s ease-in-out;
+ }
+
+ #symbol {
+  text-align: center;
+  display: inline-block;
+  border-radius: 100%;
+  width: 3.7rem;
+  font-size: 2.6rem;
+  color: white;
+  background: #01dd81;
+  font-weight: bold;
+  height: 3.7rem;
+  transition: all .6s ease-in-out;
+ }
+ #text{
+  margin-top:-45px;
+  font-size: 30px;
+  color:#01dd81;
+ }
+
+ @media screen and (max-width: 480px) {
+  .c {
+    flex-direction: column;
+  }
+}
