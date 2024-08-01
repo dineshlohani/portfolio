@@ -38,7 +38,7 @@ const About = () => {
               <p className="a-award-desc">
                 Dinesh Lohani has a BSC.CSIT from Tribhuvan University and years
                 of experience as a UI/UX Designer and Web Developer with Python
-                Django, react and PHP
+                Django, react and Laravel 
               </p>
             </div>
           </div>

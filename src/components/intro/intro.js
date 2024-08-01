@@ -6,12 +6,7 @@ import "../../App.css";
 const intro = () => {
   return (
     <div className="i">
-      <div class="solar">
-        <div class="sun"></div>
-        <div class="earth">
-          <div class="moon"></div>
-        </div>
-      </div>
+      <div class="solar"></div>
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro"> Hello, my name is </h2>
@@ -93,7 +88,7 @@ const intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-    
+
         <img src={image} alt="" className="i-img" />
       </div>
     </div>
